@@ -7,11 +7,12 @@ from pwn import *
 
 e = 65537
 
-r = remote("saturn.picoctf.net", 61729)
-r.recvuntil(b'anger = ')
-c = int(r.recvline().strip())
-r.recvuntil(b'envy = ')
-d = int(r.recvline().strip())
+host, port = sys.argv[1].split(":")
+io = remote(host, port)
+io.recvuntil(b'anger = ')
+c = int(io.recvline().strip())
+io.recvuntil(b'envy = ')
+d = int(io.recvline().strip())
 
 divisors = divisors(e*d-1)
 primes = [int(d+1) for d in divisors if (d <= 2**128 - 1) and is_prime(d+1)]
@@ -26,7 +27,7 @@ for p, q in combinations(primes, 2):
         except:
             pass
 
-r.sendlineafter(b"> ", vainglory.encode())
-r.recvuntil(b"Conquered!").decode()
-flag = r.recv().decode()
+io.sendlineafter(b"> ", vainglory.encode())
+io.recvuntil(b"Conquered!").decode()
+flag = io.recv().decode()
 print(flag)

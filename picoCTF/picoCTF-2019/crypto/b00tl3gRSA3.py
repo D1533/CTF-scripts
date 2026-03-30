@@ -4,14 +4,16 @@ from sage.all import *
 from pwn import *
 from Crypto.Util.number import long_to_bytes
 
-r = remote("fickle-tempest.picoctf.net", 60059)
 
-r.recvuntil(b"c: ")
-c = int(r.recvline().strip().decode())
-r.recvuntil(b"n: ")
-n = int(r.recvline().strip().decode())
-r.recvuntil(b"e: ")
-e = int(r.recvline().strip().decode())
+host, port = sys.argv[1].split(":")
+io = remote(host, port)
+
+io.recvuntil(b"c: ")
+c = int(io.recvline().strip().decode())
+io.recvuntil(b"n: ")
+n = int(io.recvline().strip().decode())
+io.recvuntil(b"e: ")
+e = int(io.recvline().strip().decode())
 
 
 factors = factor(n)

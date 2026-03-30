@@ -4,16 +4,17 @@ from pwn import *
 from Crypto.Util.number import long_to_bytes
 import owiener
 
-r = remote("wily-courier.picoctf.net", 51488)
+host, port = sys.argv[1].split(":")
+io = remote(host, port)
 
-r.recvuntil(b"e: ")
-e = int(r.recvline().strip().decode())
-r.recvuntil(b"n: ")
-n = int(r.recvline().strip().decode())
-r.recvuntil(b"c: ")
-c = int(r.recvline().strip().decode())
+io.recvuntil(b"e: ")
+e = int(io.recvline().strip().decode())
+io.recvuntil(b"n: ")
+n = int(io.recvline().strip().decode())
+io.recvuntil(b"c: ")
+c = int(io.recvline().strip().decode())
 
-r.close()
+io.close()
 
 d = owiener.attack(e, n)
 m = pow(c, d, n)
