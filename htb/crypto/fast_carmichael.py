@@ -7,9 +7,9 @@ p = 2967449566868551055015417464290533273077199179985304335099507553127683875317
 n = p*(313*(p-1)+1)*(353*(p-1)+1) 
 
 host, port = sys.argv[1].split(":")
-r = remote(host, port)
-r.recvuntil(b"Give p: ")
+io = remote(host, port)
+io.recvuntil(b"Give p: ")
 
-r.sendline(str(n).encode())
-flag = r.recvline().decode()
+io.sendline(str(n).encode())
+flag = io.recvline().decode()
 print(flag)

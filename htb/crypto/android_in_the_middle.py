@@ -15,23 +15,15 @@ def encrypt(msg, shared_secret):
 
 
 host, port = sys.argv[1].split(":")
-r = remote(host, port)
+io = remote(host, port)
 
-
-r.sendlineafter(b"Enter The Public Key of The Memory: ", b"1")
+io.sendlineafter(b"Enter The Public Key of The Memory: ", b"1")
 enc_msg = encrypt(msg, 1)
-r.sendlineafter(b"Enter The Encrypted Initialization Sequence: ", enc_msg.hex().encode())
-r.recvuntil(b"DEBUG MSG - ")
-r.recvuntil(b"DEBUG MSG - ")
-flag = r.recvline().decode()
+io.sendlineafter(b"Enter The Encrypted Initialization Sequence: ", enc_msg.hex().encode())
+io.recvuntil(b"DEBUG MSG - ")
+io.recvuntil(b"DEBUG MSG - ")
+flag = io.recvline().decode()
 print(flag)
-
-
-
-
-
-
-
 
 
 
