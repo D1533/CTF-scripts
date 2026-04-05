@@ -27,32 +27,32 @@ This repository contains cryptography scripts for various CTFs.
 ### Hack The Box 
 | Challenge | Category | Script | Topics |
 |-----------|----------|--------|----------|
-| Alpashcii Clashing    | crypto | [alphascii_clashing.py](htb/crypto/alphascii_clashing.py)            | |
+| Alpashcii Clashing    | crypto | [alphascii_clashing.py](htb/crypto/alphascii_clashing.py)            | MD5 hash collision. |
 | Ancient Encodings     | crypto | [ancient_encodings.py](htb/crypto/ancient_encodings.py)              | Base64, hex encodings. |
-| Android in the Middle | crypto | [android_in_the_middle.py](htb/crypto/android_in_the_middle.py)      | |
+| Android in the Middle | crypto | [android_in_the_middle.py](htb/crypto/android_in_the_middle.py)      | Diffie-Hellman. Choosen Public Key Attack.|
 | Arranged              | crypto | [arranged.py](htb/crypto/arranged.py)                                | ECC. Small subgroup discrete log. |
-| Baby quick maffs      | crypto | [baby_quick_maffs.py](htb/crypto/baby_quick_maffs.py)                | |
-| Binary basis          | crypto | [binary_basis.py](htb/crypto/binary_basis.py)                        | RSA.  |
+| Baby quick maffs      | crypto | [baby_quick_maffs.py](htb/crypto/baby_quick_maffs.py)                | Modular arithmetic. Equation manipulation. |
+| Binary basis          | crypto | [binary_basis.py](htb/crypto/binary_basis.py)                        | RSA. Multiple primes encoding. |
 | Brainy's Cipher       | crypto | [brainys_cipher.py](htb/crypto/brainys_cipher.py)                    | RSA. Chinese Remainder Theorem.|
 | Brevi Moduli          | crypto | [brevi_moduli.py](htb/crypto/brevi_moduli.py)                        | RSA. Small modulus factorization.  |
 | Digital Safety Annex  | crypto | [digital_safety_annex.py](htb/crypto/digital_safety_annex.py)        | DSA. Nonce $k$ brute force.|
 | Fast Carmichael       | crypto | [fast_carmichael.py](htb/crypto/fast_carmichael.py)                  | Carmichael numbers. Find the paper challenge.|
 | Flippin Bank          | crypto | [flippin_bank.py](htb/crypto/flippin_bank.py)                        | AES. Flipping bit attack.|
-| Gonna lift em all     | crypto | [gonna_lift_em_all.py](htb/crypto/gonna_lift_em_all.py)              | |
-| Hidden Handshake      | crypto | [hidden_handshake.py](htb/crypto/hidden_handshake.py)                | |
-| Initialization        | crypto | [initialization.py](htb/crypto/initialization.py)                    | |
+| Gonna lift em all     | crypto | [gonna_lift_em_all.py](htb/crypto/gonna_lift_em_all.py)              | ElGamal. Implementation flaw.|
+| Hidden Handshake      | crypto | [hidden_handshake.py](htb/crypto/hidden_handshake.py)                | AES CTR. Known Plaintext attack. |
+| Initialization        | crypto | [initialization.py](htb/crypto/initialization.py)                    | AES.CTR. Known Plaintext attack. |
 | Lost Key              | crypto | [lostkey.py](htb/crypto/lostkey.py)                                  | ECC. Curve parameters recovery. Pohlig-Hellman.|
 | Lost Modulus          | crypto | [lost_modulus.py](htb/crypto/lost_modulus.py)                        | RSA. Small exponent without message padding.|
 | Lost Modulus Again    | crypto | [lost_modulus_again.py](htb/crypto/lost_modulus_again.py)            | RSA. Coppersmith's short pad attack.|
 | Nuclear Sale          | crypto | [nuclear_sale.py](htb/crypto/nuclear_sale.py)                        | .pcap analysis |
-| Optimus Prime         | crypto | [optimus_prime.py](htb/crypto/optimus_prime.py)                      | RSA. Shared prime on different keys. gcd attack|
+| Optimus Prime         | crypto | [optimus_prime.py](htb/crypto/optimus_prime.py)                      | RSA. Shared prime on different keys. GCD attack|
 | Quadratic Points      | crypto | [quadratic_points.py](htb/crypto/quadratic_points.py)                | Integer polynomial coefficients recovery. ECC discrete log. CRT.|
 | RLotto                | crypto | [rlotto.py](htb/crypto/rlotto.py)                                    | PRNG. Time seed|
-| Rookie Mistake        | crypto | [rookie_mistake.py](htb/crypto/rookie_mistake.py)                    | |
-| Secure Signing        | crypto | [secure_signing.py](htb/crypto/secure_signing.py)                    | |
+| Rookie Mistake        | crypto | [rookie_mistake.py](htb/crypto/rookie_mistake.py)                    | RSA. Implementation fault.|
+| Secure Signing        | crypto | [secure_signing.py](htb/crypto/secure_signing.py)                    | SHA256. Byte at a time Oracle Attack|
 | Sekur Julius          | crypto | [sekur_julius.py](htb/crypto/sekur_julius.py)                        | Caesar cipher brute force.|
 | SPG                   | crypto | [spg.py](htb/crypto/spg.py)                                          | AES. Weak random key recovery. |
-| Spooky RSA            | crypto | [spooky_rsa.py](htb/crypto/spooky_rsa.py)                            | RSA.|
+| Spooky RSA            | crypto | [spooky_rsa.py](htb/crypto/spooky_rsa.py)                            | RSA. Encrypted prime. GCD attack. |
 | Sugar Free Candies    | crypto | [sugar_free_candies.py](htb/crypto/sugar_free_candies.py)            | Integer equation system.|
 | Symbols               | crypto | [symbols.py](htb/crypto/symbols.py)                                  | Legendre symbol.|
 | Two for One           | crypto | [two_for_one.py](htb/crypto/two_for_one.py)                          | RSA. Polynomial gcd. Franklin-reiter attack. |
