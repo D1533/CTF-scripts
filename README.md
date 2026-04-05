@@ -25,7 +25,7 @@ This repository contains cryptography scripts for various CTFs.
 | 16. CBC bitflipping attacks                   | Set 2 |[challenge_16.py](set2/challenge_16.py) |
 
 ### Hack The Box 
-| Challenge | Category | Script | Concepts |
+| Challenge | Category | Script | Topics |
 |-----------|----------|--------|----------|
 | Alpashcii Clashing | crypto | [alphascii_clashing.py](htb/crypto/alphascii_clashing.py) | |
 | Ancient Encodings | crypto | [ancient_encodings.py](htb/crypto/ancient_encodings.py) | |
@@ -59,7 +59,7 @@ This repository contains cryptography scripts for various CTFs.
 | Weak RSA | crypto | [weak_rsa.py](htb/crypto/weak_rsa.py) | |
 
 ### TAMUctf 2026
-| Challenge | Category | Script | Concepts |
+| Challenge | Category | Script | Topics |
 |-----------|----------|--------|----------|
 | Abnormal Ellipse | crypto | [abnormal_ellipse.py](TAMUctf-2026/crypto/abnormal-ellipse/abnormal_ellipse.py) | ECC. Smart Attack. |
 | Hidden Log Factoring | crypto | [hidden_log_factoring.py](TAMUctf-2026/crypto/hidden_log_factoring/hidden_log_factoring.py) | RSA. Pohlig-Hellman. Factor $N$ from $d$.|
