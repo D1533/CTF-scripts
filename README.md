@@ -61,5 +61,5 @@ This repository contains cryptography scripts for various CTFs.
 ### TAMUctf 2026
 | Challenge | Category | Script | Concepts |
 |-----------|----------|--------|----------|
-| Abnormal Ellipse | crypto | [abnormal_ellipse.py](TAMUctf-2026/crypto/abnormal-ellipse/abnormal_ellipse.py) | |
-| Hidden Log Factoring | crypto | [hidden_log_factoring.py](TAMUctf-2026/crypto/hidden_log_factoring/hidden_log_factoring.py) | |
+| Abnormal Ellipse | crypto | [abnormal_ellipse.py](TAMUctf-2026/crypto/abnormal-ellipse/abnormal_ellipse.py) | ECC. Smart Attack. |
+| Hidden Log Factoring | crypto | [hidden_log_factoring.py](TAMUctf-2026/crypto/hidden_log_factoring/hidden_log_factoring.py) | RSA. Pohlig-Hellman. Factor $N$ from $d$.|
