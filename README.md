@@ -57,3 +57,9 @@ This repository contains cryptography scripts for various CTFs.
 | Symbols | crypto | [symbols.py](htb/crypto/symbols.py) | |
 | Two for One | crypto | [two_for_one.py](htb/crypto/two_for_one.py) | |
 | Weak RSA | crypto | [weak_rsa.py](htb/crypto/weak_rsa.py) | |
+
+### TAMUctf 2026
+| Challenge | Category | Script | Concepts |
+|-----------|----------|--------|----------|
+| Abnormal Ellipse | crypto | [abnormal_ellipse.py](TAMUctf-2026/abnormal_ellipse.py) | |
+| Hidden Log Factoring | crypto | [hidden_log_factoring.py](TAMUctf-2026/hidden_log_factoring.py) | |
