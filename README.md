@@ -6,7 +6,7 @@ This repository contains cryptography scripts for various CTFs.
 
 ### CryptoPals
 | Challenge | Set | Script |
-|-----------|------------|
+|-----------|-----|--------|
 | 01. Convert hex to base64                     | Set 1 |[challenge_01.py](set1/challenge_01.py) |
 | 02. Fixed XOR                                 | Set 1 |[challenge_02.py](set1/challenge_02.py) |
 | 03. Single-byte XOR cipher                    | Set 1 |[challenge_03.py](set1/challenge_03.py) |
