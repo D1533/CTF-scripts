@@ -25,8 +25,8 @@ This repository contains cryptography scripts for various CTFs.
 | 16. CBC bitflipping attacks                   | Set 2 |[challenge_16.py](set2/challenge_16.py) |
 
 ### Hack The Box 
-| Challenge | Category | Script | Concepts
-|-----------|----------|--------|----------|---------|
+| Challenge | Category | Script | Concepts |
+|-----------|----------|--------|----------|
 | Alpashcii Clashing | crypto | [alphascii_clashing.py](htb/crypto/alphascii_clashing.py) | |
 | Ancient Encodings | crypto | [ancient_encodings.py](htb/crypto/ancient_encodings.py) | |
 | Android in the Middle | crypto | [android_in_the_middle.py](htb/crypto/android_in_the_middle.py) | |
