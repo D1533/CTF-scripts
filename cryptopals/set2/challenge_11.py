@@ -11,40 +11,53 @@ def pkcs7_pad(pt, block_size):
     pad_len = block_size - (len(pt) % block_size)
     return pt + bytes([pad_len]*pad_len)
 
-def aes_cbc_encrypt(key, iv, pt):
-    cipher = AES.new(key, AES.MODE_ECB)
-    ct = b""
-    ct_prev = iv
-    for i in range(len(pt) // 16):
-        ct_curr = cipher.encrypt(xor(pt[i*16:(i+1)*16], ct_prev))
-        ct += ct_curr
-        ct_prev = ct_curr
-    return ct
-
-def encryption_oracle(pt):
-    key = os.urandom(16)
-    pt = os.urandom(randint(5, 10)) + pt + os.urandom(randint(5,10))
-    pt = pkcs7_pad(pt, 16)    
-    if randint(0,1):
-        cipher = AES.new(key, AES.MODE_ECB)
+class Oracle:
+    def __init__(self):
+        self.key = os.urandom(16)
+        self.iv = os.urandom(16)
+    
+    def ecb_encrypt(self, pt):
+        self.key = os.urandom(16)
+        cipher = AES.new(self.key, AES.MODE_ECB)
         ct = cipher.encrypt(pt)
-        mode = "ECB"
-    else:
-        iv = os.urandom(16)
-        ct = aes_cbc_encrypt(key, iv, pt)
-        mode = "CBC"
+        return ct
 
-    return ct, mode
+    def cbc_encrypt(self, pt):
+        self.key = os.urandom(16)
+        self.iv = os.urandom(16)
+        cipher = AES.new(self.key, AES.MODE_ECB)
+        ct = b""
+        ct_prev = self.iv
+        for i in range(0, len(pt), 16):
+            ct_curr = cipher.encrypt(xor(pt[i:i+16], ct_prev))
+            ct += ct_curr
+            ct_prev = ct_curr
+        return ct
+
+    def encrypt(self, pt):
+        pt = os.urandom(randint(5, 10)) + pt + os.urandom(randint(5,10))
+        pt = pkcs7_pad(pt, 16)    
+        if randint(0,1):
+            ct = self.ecb_encrypt(pt)
+            mode = "ECB"
+        else:
+            ct = self.cbc_encrypt(pt)
+            mode = "CBC"
+
+        return ct, mode
 
 def detect_aes_mode(ct):
-    blocks = [ct[i*16:(i+1)*16] for i in range(len(ct)//16)]
+    blocks = [ct[i:i+16] for i in range(0, len(ct), 16)]
     if len(set(blocks)) == len(blocks):
         return 'CBC'
     return 'ECB'
 
-for _ in range(100):
-    pt = b"A"*48
-    ct, mode = encryption_oracle(pt)
-    assert(mode == detect_aes_mode(ct))
+def main():
+    oracle = Oracle()
+    for _ in range(100):
+        pt = b"A"*64
+        ct, mode = oracle.encrypt(pt)
+        assert(mode == detect_aes_mode(ct))
 
-
+if __name__ == "__main__":
+    main()
