@@ -23,6 +23,7 @@ This repository contains script solutions for various CTF challenges.
 | 14. Byte-at-a-time ECB decryption (Harder)    | Set 2 |[challenge_14.py](set2/challenge_14.py) |
 | 15. PKCS#7 padding validation                 | Set 2 |[challenge_15.py](set2/challenge_15.py) |
 | 16. CBC bitflipping attacks                   | Set 2 |[challenge_16.py](set2/challenge_16.py) |
+| 17. The CBC Padding oracle                    | Set 3 |[challenge_17.py](set3/challenge_17.py) |
 
 ### Hack The Box 
 | Challenge             | Category | Script                                                                 | Topics                                                            |
