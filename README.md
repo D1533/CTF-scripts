@@ -26,6 +26,9 @@ This repository contains script solutions for various CTF challenges.
 | 17. The CBC Padding oracle                    | Set 3 |[challenge_17.py](cryptopals/set3/challenge_17.py) |
 
 ### Hack The Box 
+
+#### Crypto
+
 | Challenge             | Category | Script                                                                 | Topics                                                            |
 |-----------------------|----------|------------------------------------------------------------------------|-------------------------------------------------------------------|
 | Alpashcii Clashing    | crypto   | [alphascii_clashing.py](htb/crypto/alphascii_clashing.py)              | MD5 hash collision.                                               |
@@ -58,7 +61,12 @@ This repository contains script solutions for various CTF challenges.
 | Symbols               | crypto   | [symbols.py](htb/crypto/symbols.py)                                    | Legendre symbol.                                                  |
 | Two for One           | crypto   | [two_for_one.py](htb/crypto/two_for_one.py)                            | RSA. Polynomial gcd. Franklin-reiter attack.                      |
 | Weak RSA              | crypto   | [weak_rsa.py](htb/crypto/weak_rsa.py)                                  | RSA. Small $d$. Wiener Attack.                                    |
-| Sick ROP              | pwn      | [sick_rop.py](htb/pwn/sick_rop.py)                                     | Sigreturn-Oriented Programming (SROP)                             |                                  |
+
+#### Pwn
+| Challenge             | Category | Script                                                                 | Topic                                                             |
+|-----------------------|----------|------------------------------------------------------------------------|-------------------------------------------------------------------|
+| Jeeves                | pwn      | [jeeves.py](htb/pwn/jeeves.py)                                         | Buffer Overflow                                                   |
+| Sick ROP              | pwn      | [sick_rop.py](htb/pwn/sick_rop.py)                                     | Sigreturn-Oriented Programming (SROP)                             |
 
 ### TAMUctf 2026
 | Challenge             | Category | Script                                                                                         | Topics                                    |
