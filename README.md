@@ -66,6 +66,7 @@ This repository contains script solutions for various CTF challenges.
 | Challenge             | Category | Script                                                                 | Topic                                                             |
 |-----------------------|----------|------------------------------------------------------------------------|-------------------------------------------------------------------|
 | Jeeves                | pwn      | [jeeves.py](htb/pwn/jeeves.py)                                         | Buffer Overflow                                                   |
+| Reg                   | pwn      | [reg.py](htb/pwn/reg.py)                                               | Buffer Overflow                                                   |
 | Sick ROP              | pwn      | [sick_rop.py](htb/pwn/sick_rop.py)                                     | Sigreturn-Oriented Programming (SROP)                             |
 
 ### TAMUctf 2026
