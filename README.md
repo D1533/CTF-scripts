@@ -58,6 +58,7 @@ This repository contains script solutions for various CTF challenges.
 | Symbols               | crypto   | [symbols.py](htb/crypto/symbols.py)                                    | Legendre symbol.                                                  |
 | Two for One           | crypto   | [two_for_one.py](htb/crypto/two_for_one.py)                            | RSA. Polynomial gcd. Franklin-reiter attack.                      |
 | Weak RSA              | crypto   | [weak_rsa.py](htb/crypto/weak_rsa.py)                                  | RSA. Small $d$. Wiener Attack.                                    |
+| Sick ROP              | pwn      | [sick_rop.py](htb/pwn/sick_rop.py)                                     | Sigreturn-Oriented Programming (SROP)                             |                                  |
 
 ### TAMUctf 2026
 | Challenge             | Category | Script                                                                                         | Topics                                    |
