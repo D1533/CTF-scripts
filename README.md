@@ -69,6 +69,7 @@ This repository contains script solutions for various CTF challenges.
 | Bat Computer          | pwn      | [bat_computer.py](htb/pwn/bat_computer.py)                             | ret2shellcode                                                     |             
 | Blessing              | pwn      | [blessing.py](htb/pwn/blessing.py)                                     | heap, malloc abuse                                                |
 | Jeeves                | pwn      | [jeeves.py](htb/pwn/jeeves.py)                                         | Buffer Overflow                                                   |
+| Mathematricks         | pwn      | [mathematricks.py](htb/pwn/mathematricks.py)                           | Integer overflow                                                  |
 | Quack Quack           | pwn      | [quack_quack.py](htb/pwn/quack_quack.py)                               | printf canary leak, ret2win                                       |
 | Reg                   | pwn      | [reg.py](htb/pwn/reg.py)                                               | Buffer Overflow                                                   |
 | Regularity            | pwn      | [regularity.py](htb/pwn/regularity.py)                                 | ret2reg/ret2shellcode                                             |
