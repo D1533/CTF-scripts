@@ -68,6 +68,7 @@ This repository contains script solutions for various CTF challenges.
 | Bad grades            | pwn      | [bad_grades.py](htb/pwn/bad_grades.py)                                 | Libc addr leakage, ROP, stack aligment, float encoding            |                                       
 | Bat Computer          | pwn      | [bat_computer.py](htb/pwn/bat_computer.py)                             | ret2shellcode                                                     |             
 | Blessing              | pwn      | [blessing.py](htb/pwn/blessing.py)                                     | heap, malloc abuse                                                |
+| El Teteo              | pwn      | [el_teteo.py](htb/pwn/el_teteo.py)                                     | shellcode                                                         |
 | Entity                | pwn      | [entity.py](htb/pwn/entity.py)                                         | C code understanding (union, int to bytes)                        |
 | Jeeves                | pwn      | [jeeves.py](htb/pwn/jeeves.py)                                         | Buffer Overflow                                                   |
 | Mathematricks         | pwn      | [mathematricks.py](htb/pwn/mathematricks.py)                           | Integer overflow                                                  |
