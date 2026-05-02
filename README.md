@@ -72,6 +72,7 @@ This repository contains script solutions for various CTF challenges.
 | Entity                | pwn      | [entity.py](htb/pwn/entity.py)                                         | C code understanding (union, int to bytes)                        |
 | Jeeves                | pwn      | [jeeves.py](htb/pwn/jeeves.py)                                         | Buffer Overflow                                                   |
 | Mathematricks         | pwn      | [mathematricks.py](htb/pwn/mathematricks.py)                           | Integer overflow                                                  |
+| Power Greed           | pwn      | [power_greed.py](htb/pwn/power_greed.py)                               | ROP, ret2libc                                                     |
 | Que onda              | pwn      | [que_onda.py](htb/pwn/que_onda.py)                                     | pwntools noob tutorial                                            |
 | Quack Quack           | pwn      | [quack_quack.py](htb/pwn/quack_quack.py)                               | printf canary leak, ret2win                                       |
 | Reg                   | pwn      | [reg.py](htb/pwn/reg.py)                                               | Buffer Overflow                                                   |
