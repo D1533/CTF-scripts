@@ -71,6 +71,7 @@ This repository contains script solutions for various CTF challenges.
 | Jeeves                | pwn      | [jeeves.py](htb/pwn/jeeves.py)                                         | Buffer Overflow                                                   |
 | Quack Quack           | pwn      | [quack_quack.py](htb/pwn/quack_quack.py)                               | printf canary leak, ret2win                                       |
 | Reg                   | pwn      | [reg.py](htb/pwn/reg.py)                                               | Buffer Overflow                                                   |
+| Regularity            | pwn      | [regularity.py](htb/pwn/regularity.py)                                 | ret2reg/ret2shellcode                                             |
 | Sick ROP              | pwn      | [sick_rop.py](htb/pwn/sick_rop.py)                                     | Sigreturn-Oriented Programming (SROP)                             |
 
 ### TAMUctf 2026
