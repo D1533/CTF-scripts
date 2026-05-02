@@ -76,6 +76,7 @@ This repository contains script solutions for various CTF challenges.
 | Reg                   | pwn      | [reg.py](htb/pwn/reg.py)                                               | Buffer Overflow                                                   |
 | Regularity            | pwn      | [regularity.py](htb/pwn/regularity.py)                                 | ret2reg/ret2shellcode                                             |
 | Sick ROP              | pwn      | [sick_rop.py](htb/pwn/sick_rop.py)                                     | Sigreturn-Oriented Programming (SROP)                             |
+| Writing on the Wall   | pwn      | [writing_on_the_wall](htb/pwn/writing_on_the_wall.py)                  | Null byte ending strings                                          |
 
 ### TAMUctf 2026
 | Challenge             | Category | Script                                                                                         | Topics                                    |
