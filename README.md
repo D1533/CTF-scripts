@@ -81,6 +81,7 @@ This repository contains script solutions for various CTF challenges.
 | Power Greed           | pwn      | [power_greed.py](htb/pwn/power_greed.py)                               | ROP, ret2libc                                                     |
 | Que onda              | pwn      | [que_onda.py](htb/pwn/que_onda.py)                                     | pwntools noob tutorial                                            |
 | Quack Quack           | pwn      | [quack_quack.py](htb/pwn/quack_quack.py)                               | printf canary leak, ret2win                                       |
+| Reconstruction        | pwn      | [reconstruction.py](htb/pwn/reconstruction.py)                         | shellcode                                                         |
 | Reg                   | pwn      | [reg.py](htb/pwn/reg.py)                                               | Buffer Overflow                                                   |
 | Regularity            | pwn      | [regularity.py](htb/pwn/regularity.py)                                 | ret2reg/ret2shellcode                                             |
 | Sick ROP              | pwn      | [sick_rop.py](htb/pwn/sick_rop.py)                                     | Sigreturn-Oriented Programming (SROP)                             |
