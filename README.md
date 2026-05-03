@@ -73,6 +73,7 @@ This repository contains script solutions for various CTF challenges.
 | El Teteo              | pwn      | [el_teteo.py](htb/pwn/el_teteo.py)                                     | shellcode                                                         |
 | Entity                | pwn      | [entity.py](htb/pwn/entity.py)                                         | C code understanding (union, int to bytes)                        |
 | Format                | pwn      | [format.py](htb/pwn/format.py)                                         | Format String, malloc hook, PIE leak, libc leak, libc version identification |
+| Great Old Talisman    | pwn      | [great_old_talisman.py](htb/pwn/great_old_talisman.py)                 | GOT overwrite                                                     |
 | Hunting               | pwn      | [hunting.py](htb/pwn/hunting.py)                                       | egg hunting, shellcode x86                                        |
 | HTB Console           | pwn      | [htb_console.py](htb/pwn/htb_console.py)                               | ROP                                                               |
 | Jeeves                | pwn      | [jeeves.py](htb/pwn/jeeves.py)                                         | Buffer Overflow                                                   |
