@@ -72,6 +72,7 @@ This repository contains script solutions for various CTF challenges.
 | Entity                | pwn      | [entity.py](htb/pwn/entity.py)                                         | C code understanding (union, int to bytes)                        |
 | Format                | pwn      | [format.py](htb/pwn/format.py)                                         | Format String, malloc hook, PIE leak, libc leak, libc version identification |
 | Hunting               | pwn      | [hunting.py](htb/pwn/hunting.py)                                       | egg hunting, shellcode x86                                        |
+| HTB Console           | pwn      | [htb_console.py](htb/pwn/htb_console.py)                               | ROP
 | Jeeves                | pwn      | [jeeves.py](htb/pwn/jeeves.py)                                         | Buffer Overflow                                                   |
 | Mathematricks         | pwn      | [mathematricks.py](htb/pwn/mathematricks.py)                           | Integer overflow                                                  |
 | Power Greed           | pwn      | [power_greed.py](htb/pwn/power_greed.py)                               | ROP, ret2libc                                                     |
