@@ -65,6 +65,7 @@ This repository contains script solutions for various CTF challenges.
 #### Pwn
 | Challenge             | Category | Script                                                                 | Topic                                                             |
 |-----------------------|----------|------------------------------------------------------------------------|-------------------------------------------------------------------|
+| Assemblers Avenge     | pwn      | [assemblers_avenge.py](htb/pwn/assemblers_avenge.py)                   | Shellcode                                                         |
 | Bad grades            | pwn      | [bad_grades.py](htb/pwn/bad_grades.py)                                 | Libc addr leakage, ROP, stack aligment, float encoding            |                                       
 | Bat Computer          | pwn      | [bat_computer.py](htb/pwn/bat_computer.py)                             | ret2shellcode                                                     |             
 | Blacksmith            | pwn      | [blacksmith.py](htb/pwn/blacksmith.py)                                 | shellcode                                                         |
