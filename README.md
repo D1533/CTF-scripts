@@ -25,6 +25,8 @@ This repository contains script solutions for various CTF challenges.
 | 16. CBC bitflipping attacks                   | Set 2 |[challenge_16.py](cryptopals/set2/challenge_16.py) |
 | 17. The CBC Padding oracle                    | Set 3 |[challenge_17.py](cryptopals/set3/challenge_17.py) |
 
+---
+
 ### Hack The Box 
 
 #### Crypto
@@ -96,6 +98,7 @@ This repository contains script solutions for various CTF challenges.
 | Vault-breaker         | pwn      | [vault_breaker.py](htb/pwn/vault_breaker.py)                           | strcpy, null byte ending string, byte at a time                   |
 | Writing on the Wall   | pwn      | [writing_on_the_wall](htb/pwn/writing_on_the_wall.py)                  | Null byte ending strings                                          |
 
+---
 
 ### PicoCTF
 
@@ -157,7 +160,7 @@ This repository contains script solutions for various CTF challenges.
 | StegoRSA              | crypto   | [stego_rsa.py](picoCTF/picoCTF-2026/crypto/stego_rsa.py)|                                                              | 
 | Timestamped Secrets   | crypto   | [timestamped_secrets.py](picoCTF/picoCTF-2026/crypto/timestamped_secrets.py)|                                                              | 
 
-
+---
 
 ### TAMUctf 2026
 | Challenge             | Category | Script                                                                                         | Topics                                    |
