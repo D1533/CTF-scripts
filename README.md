@@ -84,6 +84,7 @@ This repository contains script solutions for various CTF challenges.
 | HTB Console           | pwn      | [htb_console.py](htb/pwn/htb_console.py)                               | ROP                                                               |
 | Jeeves                | pwn      | [jeeves.py](htb/pwn/jeeves.py)                                         | Buffer Overflow                                                   |
 | Laconic               | pwn      | [laconic.py](htb/pwn/laconic.py)                                       | SROP                                                              |
+| Leet Test             | pwn      | [leet_test.py](htb/pwn/leet_test.py)                                   | Format string, stack read, global write                           |
 | Mathematricks         | pwn      | [mathematricks.py](htb/pwn/mathematricks.py)                           | Integer overflow                                                  |
 | Power Greed           | pwn      | [power_greed.py](htb/pwn/power_greed.py)                               | ROP, ret2libc                                                     |
 | Que onda              | pwn      | [que_onda.py](htb/pwn/que_onda.py)                                     | pwntools noob tutorial                                            |
