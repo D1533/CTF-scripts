@@ -104,7 +104,7 @@ This repository contains script solutions for various CTF challenges.
 |-----------------------|----------|------------------------------------------------------------------------|-------------------------------------------------------------------|
 | 13                    | crypto   | [13.py](picoCTF/picoCTF-2019/crypto/13.py)      |                                                                   |
 | b00tle3gRSA2          | crypto   | [b00tl3gRSA2.py](picoCTF/picoCTF-2019/crypto/b00tl3gRSA2.py)                    |              |
-| b00tl3gRSA3           | crypto   | [b00tl3gRSA3.py](picoCTF/picoCTF-2010/crypto/b00tl3gRSA3.py)                        |         |
+| b00tl3gRSA3           | crypto   | [b00tl3gRSA3.py](picoCTF/picoCTF-2019/crypto/b00tl3gRSA3.py)                        |         |
 | caesar                | crypto   | [caesar.py](picoCTF/picoCTF-2019/crypto/caesar.py)                              |      |
 | john_pollard          | crypto   | [john_pollard.py](picoCTF/picoCTF-2019/crypto/john_pollard.py)|                                                              | 
 | miniRSA               | crypto   | [mini_rsa.py](picoCTF/picoCTF-2019/crypto/mini_rsa.py)|                                                              | 
@@ -120,6 +120,18 @@ This repository contains script solutions for various CTF challenges.
 | Mini RSA              | crypto   | [mini_rsa.py](picoCTF/picoCTF-2021/crypto/mini_rsa.py)                        |         |
 | Mod 26                | crypto   | [mod26.py](picoCTF/picoCTF-2021/crypto/mod26.py)                              |      |
 | No Padding, No Problem| crypto   | [no_padding_no_problem.py](picoCTF/picoCTF-2021/crypto/no_padding_no_problem.py)|                                                              | 
+
+#### PicoCTF-2022
+| Challenge             | Category | Script                                                                 | Topics                                                            |
+|-----------------------|----------|------------------------------------------------------------------------|-------------------------------------------------------------------|
+| basic-mod1            | crypto   | [basic_mod1.py](picoCTF/picoCTF-2022/crypto/basic_mod1.py)      |                                                                   |
+| basic-mod2            | crypto   | [basic_mod2.py](picoCTF/picoCTF-2022/crypto/basic_mod2.py)                    |              |
+| NSA Backdoor          | crypto   | [nsa_backdoor.py](picoCTF/picoCTF-2022/crypto/nsa_backdoor.py)                        |         |
+| Sequences             | crypto   | [sequences.py](picoCTF/picoCTF-2022/crypto/sequences.py)                              |      |
+| Sum-O-Primes          | crypto   | [sum_o_primes.py](picoCTF/picoCTF-2022/crypto/sum_o_primes.py)|                                                              | 
+| transposition-trial   | crypto   | [transposition_trial.py](picoCTF/picoCTF-2022/crypto/transposition_trial.py)|                                                              | 
+| Very Smooth           | crypto   | [very_smooth.py](picoCTF/picoCTF-2022/crypto/very_smooth.py)|                                                              | 
+| Vigenere              | crypto   | [vigenere.py](picoCTF/picoCTF-2022/crypto/vigenere.py)|                                                              | 
 
 
 ### TAMUctf 2026
