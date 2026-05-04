@@ -63,7 +63,7 @@ This repository contains script solutions for various CTF challenges.
 | Weak RSA              | crypto   | [weak_rsa.py](htb/crypto/weak_rsa.py)                                  | RSA. Small $d$. Wiener Attack.                                    |
 
 #### Pwn
-| Challenge             | Category | Script                                                                 | Topic                                                             |
+| Challenge             | Category | Script                                                                 | Topics                                                            |
 |-----------------------|----------|------------------------------------------------------------------------|-------------------------------------------------------------------|
 | Assemblers Avenge     | pwn      | [assemblers_avenge.py](htb/pwn/assemblers_avenge.py)                   | Shellcode                                                         |
 | Bad grades            | pwn      | [bad_grades.py](htb/pwn/bad_grades.py)                                 | Libc addr leakage, ROP, stack aligment, float encoding            |                                       
