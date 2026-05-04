@@ -142,8 +142,20 @@ This repository contains script solutions for various CTF challenges.
 #### PicoCTF-2024
 | Challenge             | Category | Script                                                                 | Topics                                                            |
 |-----------------------|----------|------------------------------------------------------------------------|-------------------------------------------------------------------|
-| C3                    | crypto   | [c3.py](picoCTF/picoCTF-2023/crypto/c3.py)      |                                                                   |
+| C3                    | crypto   | [c3.py](picoCTF/picoCTF-2024/crypto/c3.py)      |                                                                   |
 | interencdec           | crypto   | [interencdec.py](picoCTF/picoCTF-2024/crypto/interencdec.py)                    |              |
+
+#### PicoCTF-2026
+| Challenge             | Category | Script                                                                 | Topics                                                            |
+|-----------------------|----------|------------------------------------------------------------------------|-------------------------------------------------------------------|
+| ClusterRSA            | crypto   | [cluster_rsa.py](picoCTF/picoCTF-2026/crypto/cluster_rsa.py)      |                                                                   |
+| cryptomaze            | crypto   | [cryptomaze.py](picoCTF/picoCTF-2026/crypto/cryptomaze.py)                    |              |
+| Related Messages      | crypto   | [related_messages.py](picoCTF/picoCTF-2026/crypto/related_messages.py)                        |         |
+| Shared Secrets        | crypto   | [shared_secrets.py](picoCTF/picoCTF-2026/crypto/shared_secrets.py)                              |      |
+| Sum-O-Primes          | crypto   | [shift_registers.py](picoCTF/picoCTF-2026/crypto/shift_registers.py)|                                                              | 
+| Small Trouble         | crypto   | [small_trouble.py](picoCTF/picoCTF-2026/crypto/small_trouble.py)|                                                              | 
+| StegoRSA              | crypto   | [stego_rsa.py](picoCTF/picoCTF-2026/crypto/stego_rsa.py)|                                                              | 
+| Timestamped Secrets   | crypto   | [timestamped_secrets.py](picoCTF/picoCTF-2026/crypto/timestamped_secrets.py)|                                                              | 
 
 
 
