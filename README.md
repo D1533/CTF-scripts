@@ -96,6 +96,19 @@ This repository contains script solutions for various CTF challenges.
 | Vault-breaker         | pwn      | [vault_breaker.py](htb/pwn/vault_breaker.py)                           | strcpy, null byte ending string, byte at a time                   |
 | Writing on the Wall   | pwn      | [writing_on_the_wall](htb/pwn/writing_on_the_wall.py)                  | Null byte ending strings                                          |
 
+
+### PicoCTF
+
+#### PicoCTF-2021
+| Challenge             | Category | Script                                                                 | Topics                                                            |
+|-----------------------|----------|------------------------------------------------------------------------|-------------------------------------------------------------------|
+| Dachshund Attacks     | crypto   | [dachshund_attacks.py](picoCTF/picoCTF-2021/dachshund_attacks.py)      |                                                                   |
+| Easy Peasy            | crypto   | [easy_peasy.py](picoCTF/picoCTF-2021/easy_peasy.py)                    |              |
+| Mini RSA              | crypto   | [mini_rsa.py](picoCTF/picoCTF-2021/mini_rsa.py)                        |         |
+| Mod 26                | crypto   | [mod26.py](picoCTF/picoCTF-2021/mod26.py)                              |      |
+| No Padding, No Problem| crypto   | [no_padding_no_problem.py](picoCTF/picoCTF-2021/no_padding_no_problem.py)|                                                              | 
+
+
 ### TAMUctf 2026
 | Challenge             | Category | Script                                                                                         | Topics                                    |
 |-----------------------|----------|------------------------------------------------------------------------------------------------|-------------------------------------------|
