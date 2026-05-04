@@ -133,6 +133,19 @@ This repository contains script solutions for various CTF challenges.
 | Very Smooth           | crypto   | [very_smooth.py](picoCTF/picoCTF-2022/crypto/very_smooth.py)|                                                              | 
 | Vigenere              | crypto   | [vigenere.py](picoCTF/picoCTF-2022/crypto/vigenere.py)|                                                              | 
 
+#### PicoCTF-2023
+| Challenge             | Category | Script                                                                 | Topics                                                            |
+|-----------------------|----------|------------------------------------------------------------------------|-------------------------------------------------------------------|
+| rotation              | crypto   | [rotation.py](picoCTF/picoCTF-2023/crypto/rotation.py)      |                                                                   |
+| SRA                   | crypto   | [sra.py](picoCTF/picoCTF-2023/crypto/sra.py)                    |              |
+
+#### PicoCTF-2024
+| Challenge             | Category | Script                                                                 | Topics                                                            |
+|-----------------------|----------|------------------------------------------------------------------------|-------------------------------------------------------------------|
+| C3                    | crypto   | [c3.py](picoCTF/picoCTF-2023/crypto/c3.py)      |                                                                   |
+| interencdec           | crypto   | [interencdec.py](picoCTF/picoCTF-2024/crypto/interencdec.py)                    |              |
+
+
 
 ### TAMUctf 2026
 | Challenge             | Category | Script                                                                                         | Topics                                    |
