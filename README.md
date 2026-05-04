@@ -98,6 +98,7 @@ This repository contains script solutions for various CTF challenges.
 | Space pirate: Retribution| pwn    | [space_pirate_retribution.py](htb/pwn/space_pirate_retribution.py)    | PIE leak, libc leak, ROP, ret2libc                                |
 | Spooky Time           | pwn      | [spooky_time.py](htb/pwn/spooky_time.py)                               | PIE leak, libc leak, GOT overwrite                                |
 | Vault-breaker         | pwn      | [vault_breaker.py](htb/pwn/vault_breaker.py)                           | strcpy, null byte ending string, byte at a time                   |
+| Void                  | pwn      | [void.py](htb/pwn/void.py)                                             | ret2dlresolve                                                     |
 | Writing on the Wall   | pwn      | [writing_on_the_wall](htb/pwn/writing_on_the_wall.py)                  | Null byte ending strings                                          |
 
 ---
