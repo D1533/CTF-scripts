@@ -105,60 +105,60 @@ This repository contains script solutions for various CTF challenges.
 #### PicoCTF-2019
 | Challenge             | Category | Script                                                                 | Topics                                                            |
 |-----------------------|----------|------------------------------------------------------------------------|-------------------------------------------------------------------|
-| 13                    | crypto   | [13.py](picoCTF/picoCTF-2019/crypto/13.py)      |                                                                   |
-| b00tle3gRSA2          | crypto   | [b00tl3gRSA2.py](picoCTF/picoCTF-2019/crypto/b00tl3gRSA2.py)                    |              |
-| b00tl3gRSA3           | crypto   | [b00tl3gRSA3.py](picoCTF/picoCTF-2019/crypto/b00tl3gRSA3.py)                        |         |
-| caesar                | crypto   | [caesar.py](picoCTF/picoCTF-2019/crypto/caesar.py)                              |      |
-| john_pollard          | crypto   | [john_pollard.py](picoCTF/picoCTF-2019/crypto/john_pollard.py)|                                                              | 
-| miniRSA               | crypto   | [mini_rsa.py](picoCTF/picoCTF-2019/crypto/mini_rsa.py)|                                                              | 
-| rsa-pop-quiz          | crypto   | [rsa_pop_quiz.py](picoCTF/picoCTF-2019/crypto/rsa_pop_quiz.py)|                                                              | 
-| The Numbers           | crypto   | [the_numbers.py](picoCTF/picoCTF-2019/crypto/the_numbers.py)|                                                              | 
+| 13                    | crypto   | [13.py](picoCTF/picoCTF-2019/crypto/13.py)                             | rot13                                                             |
+| b00tle3gRSA2          | crypto   | [b00tl3gRSA2.py](picoCTF/picoCTF-2019/crypto/b00tl3gRSA2.py)           | wiener attack                                                     |
+| b00tl3gRSA3           | crypto   | [b00tl3gRSA3.py](picoCTF/picoCTF-2019/crypto/b00tl3gRSA3.py)           | RSA, multiple primes key                                          |
+| caesar                | crypto   | [caesar.py](picoCTF/picoCTF-2019/crypto/caesar.py)                     | Caesar brute force                                                |
+| john_pollard          | crypto   | [john_pollard.py](picoCTF/picoCTF-2019/crypto/john_pollard.py)|        | RSA                                                               |
+| miniRSA               | crypto   | [mini_rsa.py](picoCTF/picoCTF-2019/crypto/mini_rsa.py)                 | RSA, no padding, small message                                    | 
+| rsa-pop-quiz          | crypto   | [rsa_pop_quiz.py](picoCTF/picoCTF-2019/crypto/rsa_pop_quiz.py)         | RSA quiz                                                          | 
+| The Numbers           | crypto   | [the_numbers.py](picoCTF/picoCTF-2019/crypto/the_numbers.py)           | Substitution cipher                                               | 
 
 
 #### PicoCTF-2021
 | Challenge             | Category | Script                                                                 | Topics                                                            |
 |-----------------------|----------|------------------------------------------------------------------------|-------------------------------------------------------------------|
-| Dachshund Attacks     | crypto   | [dachshund_attacks.py](picoCTF/picoCTF-2021/crypto/dachshund_attacks.py)      |                                                                   |
-| Easy Peasy            | crypto   | [easy_peasy.py](picoCTF/picoCTF-2021/crypto/easy_peasy.py)                    |              |
-| Mini RSA              | crypto   | [mini_rsa.py](picoCTF/picoCTF-2021/crypto/mini_rsa.py)                        |         |
-| Mod 26                | crypto   | [mod26.py](picoCTF/picoCTF-2021/crypto/mod26.py)                              |      |
-| No Padding, No Problem| crypto   | [no_padding_no_problem.py](picoCTF/picoCTF-2021/crypto/no_padding_no_problem.py)|                                                              | 
+| Dachshund Attacks     | crypto   | [dachshund_attacks.py](picoCTF/picoCTF-2021/crypto/dachshund_attacks.py)| Wiener attack                                                    |
+| Easy Peasy            | crypto   | [easy_peasy.py](picoCTF/picoCTF-2021/crypto/easy_peasy.py)             | One Time Pad                                                      |
+| Mini RSA              | crypto   | [mini_rsa.py](picoCTF/picoCTF-2021/crypto/mini_rsa.py)                 | RSA, no padding, small message                                    |
+| Mod 26                | crypto   | [mod26.py](picoCTF/picoCTF-2021/crypto/mod26.py)                       | Rot13                                                             |
+| No Padding, No Problem| crypto   | [no_padding_no_problem.py](picoCTF/picoCTF-2021/crypto/no_padding_no_problem.py)| RSA, chosen ciphertext attack, decription oracle         | 
 
 #### PicoCTF-2022
 | Challenge             | Category | Script                                                                 | Topics                                                            |
 |-----------------------|----------|------------------------------------------------------------------------|-------------------------------------------------------------------|
-| basic-mod1            | crypto   | [basic_mod1.py](picoCTF/picoCTF-2022/crypto/basic_mod1.py)      |                                                                   |
-| basic-mod2            | crypto   | [basic_mod2.py](picoCTF/picoCTF-2022/crypto/basic_mod2.py)                    |              |
-| NSA Backdoor          | crypto   | [nsa_backdoor.py](picoCTF/picoCTF-2022/crypto/nsa_backdoor.py)                        |         |
-| Sequences             | crypto   | [sequences.py](picoCTF/picoCTF-2022/crypto/sequences.py)                              |      |
-| Sum-O-Primes          | crypto   | [sum_o_primes.py](picoCTF/picoCTF-2022/crypto/sum_o_primes.py)|                                                              | 
-| transposition-trial   | crypto   | [transposition_trial.py](picoCTF/picoCTF-2022/crypto/transposition_trial.py)|                                                              | 
-| Very Smooth           | crypto   | [very_smooth.py](picoCTF/picoCTF-2022/crypto/very_smooth.py)|                                                              | 
-| Vigenere              | crypto   | [vigenere.py](picoCTF/picoCTF-2022/crypto/vigenere.py)|                                                              | 
+| basic-mod1            | crypto   | [basic_mod1.py](picoCTF/picoCTF-2022/crypto/basic_mod1.py)             | Modular arithmetic                                                |
+| basic-mod2            | crypto   | [basic_mod2.py](picoCTF/picoCTF-2022/crypto/basic_mod2.py)             | Modular arithmetic                                                |
+| NSA Backdoor          | crypto   | [nsa_backdoor.py](picoCTF/picoCTF-2022/crypto/nsa_backdoor.py)         | Pohlig Hellman, Chinese Remainder Theorem                         |
+| Sequences             | crypto   | [sequences.py](picoCTF/picoCTF-2022/crypto/sequences.py)               | Linear Algebra, Secuences                                         |
+| Sum-O-Primes          | crypto   | [sum_o_primes.py](picoCTF/picoCTF-2022/crypto/sum_o_primes.py)         | RSA, p+q leak                                                     | 
+| transposition-trial   | crypto   | [transposition_trial.py](picoCTF/picoCTF-2022/crypto/transposition_trial.py)| Transposition cipher                                         | 
+| Very Smooth           | crypto   | [very_smooth.py](picoCTF/picoCTF-2022/crypto/very_smooth.py)           | RSA, Pollard's p-1 algorithm                                      | 
+| Vigenere              | crypto   | [vigenere.py](picoCTF/picoCTF-2022/crypto/vigenere.py)                 | Vigenere cipher                                                   | 
 
 #### PicoCTF-2023
 | Challenge             | Category | Script                                                                 | Topics                                                            |
 |-----------------------|----------|------------------------------------------------------------------------|-------------------------------------------------------------------|
-| rotation              | crypto   | [rotation.py](picoCTF/picoCTF-2023/crypto/rotation.py)      |                                                                   |
-| SRA                   | crypto   | [sra.py](picoCTF/picoCTF-2023/crypto/sra.py)                    |              |
+| rotation              | crypto   | [rotation.py](picoCTF/picoCTF-2023/crypto/rotation.py)                 | Caesar brute force                                                |
+| SRA                   | crypto   | [sra.py](picoCTF/picoCTF-2023/crypto/sra.py)                           | RSA, $$N, \phi(N)$$ recover                                       |
 
 #### PicoCTF-2024
 | Challenge             | Category | Script                                                                 | Topics                                                            |
 |-----------------------|----------|------------------------------------------------------------------------|-------------------------------------------------------------------|
-| C3                    | crypto   | [c3.py](picoCTF/picoCTF-2024/crypto/c3.py)      |                                                                   |
-| interencdec           | crypto   | [interencdec.py](picoCTF/picoCTF-2024/crypto/interencdec.py)                    |              |
+| C3                    | crypto   | [c3.py](picoCTF/picoCTF-2024/crypto/c3.py)                             | Substitution cipher                                               |                                                                   |
+| interencdec           | crypto   | [interencdec.py](picoCTF/picoCTF-2024/crypto/interencdec.py)           | Multiple encoding, caesar brute force                             |
 
 #### PicoCTF-2026
 | Challenge             | Category | Script                                                                 | Topics                                                            |
 |-----------------------|----------|------------------------------------------------------------------------|-------------------------------------------------------------------|
-| ClusterRSA            | crypto   | [cluster_rsa.py](picoCTF/picoCTF-2026/crypto/cluster_rsa.py)      |                                                                   |
-| cryptomaze            | crypto   | [cryptomaze.py](picoCTF/picoCTF-2026/crypto/cryptomaze.py)                    |              |
-| Related Messages      | crypto   | [related_messages.py](picoCTF/picoCTF-2026/crypto/related_messages.py)                        |         |
-| Shared Secrets        | crypto   | [shared_secrets.py](picoCTF/picoCTF-2026/crypto/shared_secrets.py)                              |      |
-| Sum-O-Primes          | crypto   | [shift_registers.py](picoCTF/picoCTF-2026/crypto/shift_registers.py)|                                                              | 
-| Small Trouble         | crypto   | [small_trouble.py](picoCTF/picoCTF-2026/crypto/small_trouble.py)|                                                              | 
-| StegoRSA              | crypto   | [stego_rsa.py](picoCTF/picoCTF-2026/crypto/stego_rsa.py)|                                                              | 
-| Timestamped Secrets   | crypto   | [timestamped_secrets.py](picoCTF/picoCTF-2026/crypto/timestamped_secrets.py)|                                                              | 
+| ClusterRSA            | crypto   | [cluster_rsa.py](picoCTF/picoCTF-2026/crypto/cluster_rsa.py)           | RSA, multiple primes                                              |
+| cryptomaze            | crypto   | [cryptomaze.py](picoCTF/picoCTF-2026/crypto/cryptomaze.py)             | Linear Feedback Shift Register, AES                               |
+| Related Messages      | crypto   | [related_messages.py](picoCTF/picoCTF-2026/crypto/related_messages.py) | RSA, Franklin Reiter Attack                                       |
+| Shared Secrets        | crypto   | [shared_secrets.py](picoCTF/picoCTF-2026/crypto/shared_secrets.py)     | Diffie Hellman Key Echange, private key leak                      |
+| Sum-O-Primes          | crypto   | [shift_registers.py](picoCTF/picoCTF-2026/crypto/shift_registers.py)   | Linear Feedback Shift Register                                    | 
+| Small Trouble         | crypto   | [small_trouble.py](picoCTF/picoCTF-2026/crypto/small_trouble.py)       | Wiener attack                                                     | 
+| StegoRSA              | crypto   | [stego_rsa.py](picoCTF/picoCTF-2026/crypto/stego_rsa.py)               | RSA, Steganography                                                | 
+| Timestamped Secrets   | crypto   | [timestamped_secrets.py](picoCTF/picoCTF-2026/crypto/timestamped_secrets.py)| AES, timestamp key                                           | 
 
 ---
 
