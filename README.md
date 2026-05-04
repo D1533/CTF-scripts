@@ -5,6 +5,7 @@ This repository contains script solutions for various CTF challenges.
 ## Contents
 
 ## CryptoPals
+
 | Challenge                                     | Set   | Script                                            |
 |-----------------------------------------------|-------|---------------------------------------------------|
 | 01. Convert hex to base64                     | Set 1 |[challenge_01.py](cryptopals/set1/challenge_01.py) |
@@ -65,6 +66,7 @@ This repository contains script solutions for various CTF challenges.
 | Weak RSA              | crypto   | [weak_rsa.py](htb/crypto/weak_rsa.py)                                  | RSA. Small $d$. Wiener Attack.                                    |
 
 ### Pwn
+
 | Challenge             | Category | Script                                                                 | Topics                                                            |
 |-----------------------|----------|------------------------------------------------------------------------|-------------------------------------------------------------------|
 | Assemblers Avenge     | pwn      | [assemblers_avenge.py](htb/pwn/assemblers_avenge.py)                   | Shellcode                                                         |
@@ -103,6 +105,7 @@ This repository contains script solutions for various CTF challenges.
 ## PicoCTF
 
 ### PicoCTF-2019
+
 | Challenge             | Category | Script                                                                 | Topics                                                            |
 |-----------------------|----------|------------------------------------------------------------------------|-------------------------------------------------------------------|
 | 13                    | crypto   | [13.py](picoCTF/picoCTF-2019/crypto/13.py)                             | rot13                                                             |
@@ -116,6 +119,7 @@ This repository contains script solutions for various CTF challenges.
 
 
 ### PicoCTF-2021
+
 | Challenge             | Category | Script                                                                 | Topics                                                            |
 |-----------------------|----------|------------------------------------------------------------------------|-------------------------------------------------------------------|
 | Dachshund Attacks     | crypto   | [dachshund_attacks.py](picoCTF/picoCTF-2021/crypto/dachshund_attacks.py)| Wiener attack                                                    |
@@ -125,6 +129,7 @@ This repository contains script solutions for various CTF challenges.
 | No Padding, No Problem| crypto   | [no_padding_no_problem.py](picoCTF/picoCTF-2021/crypto/no_padding_no_problem.py)| RSA, chosen ciphertext attack, decription oracle         | 
 
 ### PicoCTF-2022
+
 | Challenge             | Category | Script                                                                 | Topics                                                            |
 |-----------------------|----------|------------------------------------------------------------------------|-------------------------------------------------------------------|
 | basic-mod1            | crypto   | [basic_mod1.py](picoCTF/picoCTF-2022/crypto/basic_mod1.py)             | Modular arithmetic                                                |
@@ -137,18 +142,21 @@ This repository contains script solutions for various CTF challenges.
 | Vigenere              | crypto   | [vigenere.py](picoCTF/picoCTF-2022/crypto/vigenere.py)                 | Vigenere cipher                                                   | 
 
 ### PicoCTF-2023
+
 | Challenge             | Category | Script                                                                 | Topics                                                            |
 |-----------------------|----------|------------------------------------------------------------------------|-------------------------------------------------------------------|
 | rotation              | crypto   | [rotation.py](picoCTF/picoCTF-2023/crypto/rotation.py)                 | Caesar brute force                                                |
 | SRA                   | crypto   | [sra.py](picoCTF/picoCTF-2023/crypto/sra.py)                           | RSA, $$N, \phi(N)$$ recover                                       |
 
 ### PicoCTF-2024
+
 | Challenge             | Category | Script                                                                 | Topics                                                            |
 |-----------------------|----------|------------------------------------------------------------------------|-------------------------------------------------------------------|
 | C3                    | crypto   | [c3.py](picoCTF/picoCTF-2024/crypto/c3.py)                             | Substitution cipher                                               |                                                                   |
 | interencdec           | crypto   | [interencdec.py](picoCTF/picoCTF-2024/crypto/interencdec.py)           | Multiple encoding, caesar brute force                             |
 
 ### PicoCTF-2026
+
 | Challenge             | Category | Script                                                                 | Topics                                                            |
 |-----------------------|----------|------------------------------------------------------------------------|-------------------------------------------------------------------|
 | ClusterRSA            | crypto   | [cluster_rsa.py](picoCTF/picoCTF-2026/crypto/cluster_rsa.py)           | RSA, multiple primes                                              |
@@ -163,6 +171,7 @@ This repository contains script solutions for various CTF challenges.
 ---
 
 ## TAMUctf 2026
+
 | Challenge             | Category | Script                                                                                         | Topics                                    |
 |-----------------------|----------|------------------------------------------------------------------------------------------------|-------------------------------------------|
 | Abnormal Ellipse      | crypto   | [abnormal_ellipse.py](TAMUctf-2026/crypto/abnormal-ellipse/abnormal_ellipse.py)                | ECC. Smart Attack.                        |
