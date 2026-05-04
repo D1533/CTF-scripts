@@ -99,6 +99,19 @@ This repository contains script solutions for various CTF challenges.
 
 ### PicoCTF
 
+#### PicoCTF-2019
+| Challenge             | Category | Script                                                                 | Topics                                                            |
+|-----------------------|----------|------------------------------------------------------------------------|-------------------------------------------------------------------|
+| 13                    | crypto   | [13.py](picoCTF/picoCTF-2019/crypto/13.py)      |                                                                   |
+| b00tle3gRSA2          | crypto   | [b00tl3gRSA2.py](picoCTF/picoCTF-2019/crypto/b00tl3gRSA2.py)                    |              |
+| b00tl3gRSA3           | crypto   | [b00tl3gRSA3.py](picoCTF/picoCTF-2010/crypto/b00tl3gRSA3.py)                        |         |
+| caesar                | crypto   | [caesar.py](picoCTF/picoCTF-2019/crypto/caesar.py)                              |      |
+| john_pollard          | crypto   | [john_pollard.py](picoCTF/picoCTF-2019/crypto/john_pollard.py)|                                                              | 
+| miniRSA               | crypto   | [mini_rsa.py](picoCTF/picoCTF-2019/crypto/mini_rsa.py)|                                                              | 
+| rsa-pop-quiz          | crypto   | [rsa_pop_quiz.py](picoCTF/picoCTF-2019/crypto/rsa_pop_quiz.py)|                                                              | 
+| The Numbers           | crypto   | [the_numbers.py](picoCTF/picoCTF-2019/crypto/the_numbers.py)|                                                              | 
+
+
 #### PicoCTF-2021
 | Challenge             | Category | Script                                                                 | Topics                                                            |
 |-----------------------|----------|------------------------------------------------------------------------|-------------------------------------------------------------------|
