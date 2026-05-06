@@ -1,11 +1,7 @@
 #!/usr/bin/env python3
 
-
-
-
 from pwn import *
-
-
+import sys
 
 def exploit(io, elf):
     io.sendlineafter(b">> ", b"1")
@@ -46,8 +42,6 @@ def main():
         io = remote(HOST, PORT)
     elf = ELF("./hellhound")
     exploit(io, elf)
-
-
 
 if __name__ == "__main__":
     main()
