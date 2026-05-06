@@ -80,6 +80,7 @@ This repository contains script solutions for various CTF challenges.
 | Fleet Management      | pwn      | [fleet_management.py](htb/pwn/fleet_management.py)                     | Shellcode, seccomp sandbox                                        |
 | Format                | pwn      | [format.py](htb/pwn/format.py)                                         | Format String, malloc hook, PIE leak, libc leak, libc version identification |
 | Great Old Talisman    | pwn      | [great_old_talisman.py](htb/pwn/great_old_talisman.py)                 | GOT overwrite                                                     |
+| Hellhound             | pwn      | [hellhound.py](htb/pwn/hellhound.py)                                   | Heap, house of spirit, fake heap chunk construction               |
 | Hunting               | pwn      | [hunting.py](htb/pwn/hunting.py)                                       | egg hunting, shellcode x86                                        |
 | HTB Console           | pwn      | [htb_console.py](htb/pwn/htb_console.py)                               | ROP                                                               |
 | Jeeves                | pwn      | [jeeves.py](htb/pwn/jeeves.py)                                         | Buffer Overflow                                                   |
