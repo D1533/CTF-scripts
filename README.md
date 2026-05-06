@@ -86,6 +86,7 @@ This repository contains script solutions for various CTF challenges.
 | Laconic               | pwn      | [laconic.py](htb/pwn/laconic.py)                                       | SROP                                                              |
 | Leet Test             | pwn      | [leet_test.py](htb/pwn/leet_test.py)                                   | Format string, stack read, global write                           |
 | Mathematricks         | pwn      | [mathematricks.py](htb/pwn/mathematricks.py)                           | Integer overflow                                                  |
+| Nightmare             | pwn      | [nightmare.py](htb/pwn/nightmare.py)                                   | Format string, PIE leak, libc leak, GOT overwrite                 |
 | Optimistic            | pwn      | [optimistic.py](htb/pwn/optimistic.py)                                 | ret2shellcode, constrained shellcode                              |
 | Power Greed           | pwn      | [power_greed.py](htb/pwn/power_greed.py)                               | ROP, ret2libc                                                     |
 | Que onda              | pwn      | [que_onda.py](htb/pwn/que_onda.py)                                     | pwntools noob tutorial                                            |
