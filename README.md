@@ -100,6 +100,7 @@ This repository contains script solutions for various CTF challenges.
 | Space pirate: Entrypoint|pwn     | [space_pirate_entrypoint.py](htb/pwn/space_pirate_entrypoint.py)       | Format strings, write to stack variable                           |
 | Space pirate: Retribution| pwn    | [space_pirate_retribution.py](htb/pwn/space_pirate_retribution.py)    | PIE leak, libc leak, ROP, ret2libc                                |
 | Spooky Time           | pwn      | [spooky_time.py](htb/pwn/spooky_time.py)                               | PIE leak, libc leak, GOT overwrite                                |
+| Trick or Deal         | pwn      | [trick_or_deal.py](htb/pwn/trick_or_deal.py)                           | PIE leak, heap, UAF (Use-After-Free)                              |
 | Vault-breaker         | pwn      | [vault_breaker.py](htb/pwn/vault_breaker.py)                           | strcpy, null byte ending string, byte at a time                   |
 | Void                  | pwn      | [void.py](htb/pwn/void.py)                                             | ret2dlresolve                                                     |
 | Writing on the Wall   | pwn      | [writing_on_the_wall](htb/pwn/writing_on_the_wall.py)                  | Null byte ending strings                                          |
