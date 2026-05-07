@@ -98,6 +98,7 @@ This repository contains script solutions for various CTF challenges.
 | Rocket Blaster XXX    | pwn      | [rocket_blaster_xxx.py](htb/pwn/rocket_blaster_xxx.py)                 | ROP, stack alignment                                              |
 | Shooting star         | pwn      | [shooting_star.py](htb/pwn/shooting_star.py)                           | ROP, libc leak, ret2libc, libc version identification             |
 | Sick ROP              | pwn      | [sick_rop.py](htb/pwn/sick_rop.py)                                     | Sigreturn-Oriented Programming (SROP)                             |
+| Space                 | pwn      | [space.py](htb/pwn/space.py)                                           | x86 Shellcode, limited shellcode size                             |
 | Space pirate: Entrypoint|pwn     | [space_pirate_entrypoint.py](htb/pwn/space_pirate_entrypoint.py)       | Format strings, write to stack variable                           |
 | Space pirate: Retribution| pwn    | [space_pirate_retribution.py](htb/pwn/space_pirate_retribution.py)    | PIE leak, libc leak, ROP, ret2libc                                |
 | Spooky Time           | pwn      | [spooky_time.py](htb/pwn/spooky_time.py)                               | PIE leak, libc leak, GOT overwrite                                |
