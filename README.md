@@ -123,7 +123,7 @@ This repository contains solution scripts for CTF challenges from various platfo
 | b00tle3gRSA2          | crypto   | [b00tl3gRSA2.py](picoCTF/picoCTF-2019/crypto/b00tl3gRSA2.py)           | wiener attack                                                     |
 | b00tl3gRSA3           | crypto   | [b00tl3gRSA3.py](picoCTF/picoCTF-2019/crypto/b00tl3gRSA3.py)           | RSA, multiple primes key                                          |
 | caesar                | crypto   | [caesar.py](picoCTF/picoCTF-2019/crypto/caesar.py)                     | Caesar brute force                                                |
-| john_pollard          | crypto   | [john_pollard.py](picoCTF/picoCTF-2019/crypto/john_pollard.py)|        | RSA, small N                                                      |
+| john_pollard          | crypto   | [john_pollard.py](picoCTF/picoCTF-2019/crypto/john_pollard.py)         | RSA, small N                                                      |
 | miniRSA               | crypto   | [mini_rsa.py](picoCTF/picoCTF-2019/crypto/mini_rsa.py)                 | RSA, no padding, small message                                    | 
 | rsa-pop-quiz          | crypto   | [rsa_pop_quiz.py](picoCTF/picoCTF-2019/crypto/rsa_pop_quiz.py)         | RSA quiz                                                          | 
 | The Numbers           | crypto   | [the_numbers.py](picoCTF/picoCTF-2019/crypto/the_numbers.py)           | Substitution cipher                                               | 
