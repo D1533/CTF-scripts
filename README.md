@@ -188,6 +188,12 @@ This repository contains script solutions for various CTF challenges.
 |-----------------------|----------|------------------------------------------------------------------------------------------------|-------------------------------------------|
 | RRSSAA                | crypto   | [rrssaa.py](ECSC_2023/crypto/rrssaa.py)                                                        | RSA, Chinese remainder theorem            |
 
+### HackTM CTF
+| Challenge             | Category | Script                                                                                         | Topics                                    |
+|-----------------------|----------|------------------------------------------------------------------------------------------------|-------------------------------------------|
+| d-phi-enc             | crypto   | [d_phi_enc.py](HackTM_CTF/crypto/d_phi_enc.py)                                                 | RSA, equation manipulation                |
+
+
 
 
 ## TAMUctf 2026
