@@ -100,6 +100,7 @@ This repository contains script solutions for various CTF challenges.
 | Sick ROP              | pwn      | [sick_rop.py](htb/pwn/sick_rop.py)                                     | Sigreturn-Oriented Programming (SROP)                             |
 | Space                 | pwn      | [space.py](htb/pwn/space.py)                                           | x86 Shellcode, limited shellcode size                             |
 | Space pirate: Entrypoint|pwn     | [space_pirate_entrypoint.py](htb/pwn/space_pirate_entrypoint.py)       | Format strings, write to stack variable                           |
+| Space pirate: Going Deeper| pwn  | [space_pirate_going_deeper.py](htb/pwn/space_pirate_going_deeper.py)   | Buffer Overflow                                                   |
 | Space pirate: Retribution| pwn    | [space_pirate_retribution.py](htb/pwn/space_pirate_retribution.py)    | PIE leak, libc leak, ROP, ret2libc                                |
 | Spooky Time           | pwn      | [spooky_time.py](htb/pwn/spooky_time.py)                               | PIE leak, libc leak, GOT overwrite                                |
 | Trick or Deal         | pwn      | [trick_or_deal.py](htb/pwn/trick_or_deal.py)                           | PIE leak, heap, UAF (Use-After-Free)                              |
