@@ -181,6 +181,15 @@ This repository contains script solutions for various CTF challenges.
 
 ---
 
+
+
+### ECSC 2023 (Norway)
+| Challenge             | Category | Script                                                                                         | Topics                                    |
+|-----------------------|----------|------------------------------------------------------------------------------------------------|-------------------------------------------|
+| RRSSAA                | crypto   | [rrssaa.py](ECSC_2023/crypto/rrssaa.py)                                                        | RSA, Chinese remainder theorem            |
+
+
+
 ## TAMUctf 2026
 
 | Challenge             | Category | Script                                                                                         | Topics                                    |
