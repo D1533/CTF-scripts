@@ -79,6 +79,7 @@ This repository contains script solutions for various CTF challenges.
 | Entity                | pwn      | [entity.py](htb/pwn/entity.py)                                         | C code understanding (union, int to bytes)                        |
 | Fleet Management      | pwn      | [fleet_management.py](htb/pwn/fleet_management.py)                     | Shellcode, seccomp sandbox                                        |
 | Format                | pwn      | [format.py](htb/pwn/format.py)                                         | Format String, malloc hook, PIE leak, libc leak, libc version identification |
+| Getting Started       | pwn      | [getting_started.py](htb/pwn/getting_started.py)                       | Buffer Overflow tutorial                                          |
 | Great Old Talisman    | pwn      | [great_old_talisman.py](htb/pwn/great_old_talisman.py)                 | GOT overwrite                                                     |
 | Hellhound             | pwn      | [hellhound.py](htb/pwn/hellhound.py)                                   | Heap, house of spirit, fake heap chunk construction               |
 | Hunting               | pwn      | [hunting.py](htb/pwn/hunting.py)                                       | egg hunting, shellcode x86                                        |
