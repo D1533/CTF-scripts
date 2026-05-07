@@ -1,6 +1,6 @@
 ## CTF Scripts
 
-This repository contains script solutions for various CTF challenges. 
+This repository contains solution scripts for CTF challenges from various platforms and competitions.
 
 ## Contents
 
