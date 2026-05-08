@@ -101,6 +101,7 @@ This repository contains solution scripts for CTF challenges from various platfo
 | Rocket Blaster XXX    | pwn      | [rocket_blaster_xxx.py](htb/pwn/rocket_blaster_xxx.py)                 | ROP, stack alignment                                              |
 | Shooting star         | pwn      | [shooting_star.py](htb/pwn/shooting_star.py)                           | ROP, libc leak, ret2libc, libc version identification             |
 | Sick ROP              | pwn      | [sick_rop.py](htb/pwn/sick_rop.py)                                     | Sigreturn-Oriented Programming (SROP)                             |
+| Sound of Silence      | pwn      | [sound_of_silence.py](htb/pwn/sound_of_silence.py)                     | Buffer Overflow                                                   |
 | Space                 | pwn      | [space.py](htb/pwn/space.py)                                           | x86 Shellcode, limited shellcode size                             |
 | Space pirate: Entrypoint|pwn     | [space_pirate_entrypoint.py](htb/pwn/space_pirate_entrypoint.py)       | Format strings, write to stack variable                           |
 | Space pirate: Going Deeper| pwn  | [space_pirate_going_deeper.py](htb/pwn/space_pirate_going_deeper.py)   | Buffer Overflow                                                   |
