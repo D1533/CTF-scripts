@@ -109,6 +109,7 @@ This repository contains solution scripts for CTF challenges from various platfo
 | Trick or Deal         | pwn      | [trick_or_deal.py](htb/pwn/trick_or_deal.py)                           | PIE leak, heap, UAF (Use-After-Free)                              |
 | Vault-breaker         | pwn      | [vault_breaker.py](htb/pwn/vault_breaker.py)                           | strcpy, null byte ending string, byte at a time                   |
 | Void                  | pwn      | [void.py](htb/pwn/void.py)                                             | ret2dlresolve                                                     |
+| What does the f say?  | pwn      | [what_does_the_f_say.py](htb/pwn/what_does_the_f_say.py)               | ROP, PIE leak, libc leak, canary leak, libc version identification|
 | Writing on the Wall   | pwn      | [writing_on_the_wall](htb/pwn/writing_on_the_wall.py)                  | Null byte ending strings                                          |
 
 ---
