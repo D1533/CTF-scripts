@@ -57,6 +57,7 @@ This repository contains solution scripts for CTF challenges from various platfo
 | Quadratic Points      | crypto   | [quadratic_points.py](htb/crypto/quadratic_points.py)                  | Integer polynomial coefficients recovery, ECC discrete log, CRT   |
 | RLotto                | crypto   | [rlotto.py](htb/crypto/rlotto.py)                                      | PRNG, time seed                                                   |
 | Rookie Mistake        | crypto   | [rookie_mistake.py](htb/crypto/rookie_mistake.py)                      | RSA, implementation fault                                         |
+| RsaCtfTool            | crypto   | [rsa_ctf_tool.py](htb/crypto/rsa_ctf_tool.py)                          | RSA, AES, Euler totient function properties                       |
 | Secure Signing        | crypto   | [secure_signing.py](htb/crypto/secure_signing.py)                      | SHA256, byte at a time oracle attack                              |
 | Sekur Julius          | crypto   | [sekur_julius.py](htb/crypto/sekur_julius.py)                          | Caesar cipher brute force                                         |
 | SPG                   | crypto   | [spg.py](htb/crypto/spg.py)                                            | AES, weak random key recovery                                     |
