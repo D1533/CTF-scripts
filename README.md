@@ -52,6 +52,7 @@ This repository contains solution scripts for CTF challenges from various platfo
 | Lost Key              | crypto   | [lostkey.py](htb/crypto/lostkey.py)                                    | ECC, curve parameters recovery, Pohlig-Hellman                    |
 | Lost Modulus          | crypto   | [lost_modulus.py](htb/crypto/lost_modulus.py)                          | RSA, small exponent without message padding                       |
 | Lost Modulus Again    | crypto   | [lost_modulus_again.py](htb/crypto/lost_modulus_again.py)              | RSA, Coppersmith's short pad attack                               |
+| LunaCrypt             | crypto   | [lunacrypt.py](htb/crypto/lunacrypt.py)                                | Custom cipher, reverse bitwise operations                         |
 | Nuclear Sale          | crypto   | [nuclear_sale.py](htb/crypto/nuclear_sale.py)                          | .pcap analysis                                                    |
 | Optimus Prime         | crypto   | [optimus_prime.py](htb/crypto/optimus_prime.py)                        | RSA, shared prime on different keys, GCD attack                   |
 | Quadratic Points      | crypto   | [quadratic_points.py](htb/crypto/quadratic_points.py)                  | Integer polynomial coefficients recovery, ECC discrete log, CRT   |
