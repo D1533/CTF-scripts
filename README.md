@@ -42,6 +42,7 @@ This repository contains solution scripts for CTF challenges from various platfo
 | Binary basis          | crypto   | [binary_basis.py](htb/crypto/binary_basis.py)                          | RSA, Multiple primes encoding                                     |
 | Brainy's Cipher       | crypto   | [brainys_cipher.py](htb/crypto/brainys_cipher.py)                      | RSA, Chinese Remainder Theorem                                    |
 | Brevi Moduli          | crypto   | [brevi_moduli.py](htb/crypto/brevi_moduli.py)                          | RSA, Small modulus factorization                                  |
+| Composition           | crypto   | [composition.py](htb/crypto/composition.py)                            | ECC, RSA, AES, CRT, fermat factorization, curve parameter recovery| 
 | Digital Safety Annex  | crypto   | [digital_safety_annex.py](htb/crypto/digital_safety_annex.py)          | DSA, Nonce $k$ brute force                                        |
 | Fast Carmichael       | crypto   | [fast_carmichael.py](htb/crypto/fast_carmichael.py)                    | Carmichael numbers, find the paper challenge                      |
 | Flippin Bank          | crypto   | [flippin_bank.py](htb/crypto/flippin_bank.py)                          | AES, flipping bit attack                                          |
