@@ -192,6 +192,7 @@ This repository contains solution scripts for CTF challenges from various platfo
 | Challenge             | Category | Script                                                                                         | Topics                                    |
 |-----------------------|----------|------------------------------------------------------------------------------------------------|-------------------------------------------|
 | RRSSAA                | crypto   | [rrssaa.py](ECSC_2023/crypto/rrssaa.py)                                                        | RSA, Chinese remainder theorem            |
+| WOTS Up               | crypto   | [wots_up.py](ECSC_2023/crypto/wots_up.py)                                                      | Hash, Sha256, custom signature scheme     |
 
 ### HackTM CTF
 | Challenge             | Category | Script                                                                                         | Topics                                    |
