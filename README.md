@@ -27,8 +27,8 @@ This repository contains solution scripts for CTF challenges from various platfo
 | 17. The CBC Padding oracle                                                            | Set 3 |[challenge_17.py](cryptopals/set3/challenge_17.py) |
 | 18. Implement CTR, the stream cipher mode                                             | Set 3 |[challenge_18.py](cryptopals/set3/challenge_18.py) |
 | 33. Implement Diffie-Hellman                                                          | Set 5 |[challenge_33.py](cryptopals/set5/challenge_33.py) |
-| 34. Implement a MITM key-fixing attack on Diffie-Hellman with parameter injection     | Set 5 |[challenge_34.py](cryptopals/set5/challenge_34.py) |
-| 35. Implement DH with negotiated groups, and break with malicious "g" parameters      | Set 5 |[challenge_35.py](cryptopals/set5/challenge_35.py) |
+| 34. Implement a MITM key-fixing attack on DH with parameter injection                 | Set 5 |[challenge_34.py](cryptopals/set5/challenge_34.py) |
+| 35. Implement DH with negotiated groups, and break with malicious "g"                 | Set 5 |[challenge_35.py](cryptopals/set5/challenge_35.py) |
 
 
 ---
