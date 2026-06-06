@@ -6,26 +6,30 @@ This repository contains solution scripts for CTF challenges from various platfo
 
 ## CryptoPals
 
-| Challenge                                     | Set   | Script                                            |
-|-----------------------------------------------|-------|---------------------------------------------------|
-| 01. Convert hex to base64                     | Set 1 |[challenge_01.py](cryptopals/set1/challenge_01.py) |
-| 02. Fixed XOR                                 | Set 1 |[challenge_02.py](cryptopals/set1/challenge_02.py) |
-| 03. Single-byte XOR cipher                    | Set 1 |[challenge_03.py](cryptopals/set1/challenge_03.py) |
-| 04. Detect single-character XOR               | Set 1 |[challenge_04.py](cryptopals/set1/challenge_04.py) |
-| 05. Implement repeating-key XOR               | Set 1 |[challenge_05.py](cryptopals/set1/challenge_05.py) |
-| 06. Break repeating-key XOR                   | Set 1 |[challenge_06.py](cryptopals/set1/challenge_06.py) |
-| 07. AES in ECB mode                           | Set 1 |[challenge_07.py](cryptopals/set1/challenge_07.py) |
-| 08. Detect AES in ECB mode                    | Set 1 |[challenge_08.py](cryptopals/set1/challenge_08.py) |
-| 09. Implement PKCS#7 padding                  | Set 2 |[challenge_09.py](cryptopals/set2/challenge_09.py) |
-| 10. Implement CBC mode                        | Set 2 |[challenge_10.py](cryptopals/set2/challenge_10.py) |
-| 11. An ECB/CBC detection oracle               | Set 2 |[challenge_11.py](cryptopals/set2/challenge_11.py) |
-| 12. Byte-at-a-time ECB decryption (Simple)    | Set 2 |[challenge_12.py](cryptopals/set2/challenge_12.py) |
-| 13. ECB cut-and-paste                         | Set 2 |[challenge_13.py](cryptopals/set2/challenge_13.py) |
-| 14. Byte-at-a-time ECB decryption (Harder)    | Set 2 |[challenge_14.py](cryptopals/set2/challenge_14.py) |
-| 15. PKCS#7 padding validation                 | Set 2 |[challenge_15.py](cryptopals/set2/challenge_15.py) |
-| 16. CBC bitflipping attacks                   | Set 2 |[challenge_16.py](cryptopals/set2/challenge_16.py) |
-| 17. The CBC Padding oracle                    | Set 3 |[challenge_17.py](cryptopals/set3/challenge_17.py) |
-| 18. Implement CTR, the stream cipher mode     | Set 3 |[challenge_18.py](cryptopals/set3/challenge_18.py) |
+| Challenge                                                                             | Set   | Script                                            |
+|---------------------------------------------------------------------------------------|-------|---------------------------------------------------|
+| 01. Convert hex to base64                                                             | Set 1 |[challenge_01.py](cryptopals/set1/challenge_01.py) |
+| 02. Fixed XOR                                                                         | Set 1 |[challenge_02.py](cryptopals/set1/challenge_02.py) |
+| 03. Single-byte XOR cipher                                                            | Set 1 |[challenge_03.py](cryptopals/set1/challenge_03.py) |
+| 04. Detect single-character XOR                                                       | Set 1 |[challenge_04.py](cryptopals/set1/challenge_04.py) |
+| 05. Implement repeating-key XOR                                                       | Set 1 |[challenge_05.py](cryptopals/set1/challenge_05.py) |
+| 06. Break repeating-key XOR                                                           | Set 1 |[challenge_06.py](cryptopals/set1/challenge_06.py) |
+| 07. AES in ECB mode                                                                   | Set 1 |[challenge_07.py](cryptopals/set1/challenge_07.py) |
+| 08. Detect AES in ECB mode                                                            | Set 1 |[challenge_08.py](cryptopals/set1/challenge_08.py) |
+| 09. Implement PKCS#7 padding                                                          | Set 2 |[challenge_09.py](cryptopals/set2/challenge_09.py) |
+| 10. Implement CBC mode                                                                | Set 2 |[challenge_10.py](cryptopals/set2/challenge_10.py) |
+| 11. An ECB/CBC detection oracle                                                       | Set 2 |[challenge_11.py](cryptopals/set2/challenge_11.py) |
+| 12. Byte-at-a-time ECB decryption (Simple)                                            | Set 2 |[challenge_12.py](cryptopals/set2/challenge_12.py) |
+| 13. ECB cut-and-paste                                                                 | Set 2 |[challenge_13.py](cryptopals/set2/challenge_13.py) |
+| 14. Byte-at-a-time ECB decryption (Harder)                                            | Set 2 |[challenge_14.py](cryptopals/set2/challenge_14.py) |
+| 15. PKCS#7 padding validation                                                         | Set 2 |[challenge_15.py](cryptopals/set2/challenge_15.py) |
+| 16. CBC bitflipping attacks                                                           | Set 2 |[challenge_16.py](cryptopals/set2/challenge_16.py) |
+| 17. The CBC Padding oracle                                                            | Set 3 |[challenge_17.py](cryptopals/set3/challenge_17.py) |
+| 18. Implement CTR, the stream cipher mode                                             | Set 3 |[challenge_18.py](cryptopals/set3/challenge_18.py) |
+| 33. Implement Diffie-Hellman                                                          | Set 5 |[challenge_33.py](cryptopals/set5/challenge_33.py) |
+| 34. Implement a MITM key-fixing attack on Diffie-Hellman with parameter injection     | Set 5 |[challenge_34.py](cryptopals/set5/challenge_34.py) |
+| 35. Implement DH with negotiated groups, and break with malicious "g" parameters      | Set 5 |[challenge_35.py](cryptopals/set5/challenge_35.py) |
+
 
 ---
 
