@@ -25,6 +25,7 @@ This repository contains solution scripts for CTF challenges from various platfo
 | 15. PKCS#7 padding validation                 | Set 2 |[challenge_15.py](cryptopals/set2/challenge_15.py) |
 | 16. CBC bitflipping attacks                   | Set 2 |[challenge_16.py](cryptopals/set2/challenge_16.py) |
 | 17. The CBC Padding oracle                    | Set 3 |[challenge_17.py](cryptopals/set3/challenge_17.py) |
+| 18. Implement CTR, the stream cipher mode     | Set 3 |[challenge_18.py](cryptopals/set3/challenge_18.py) |
 
 ---
 
