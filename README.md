@@ -29,7 +29,8 @@ This repository contains solution scripts for CTF challenges from various platfo
 | 33. Implement Diffie-Hellman                                                          | Set 5 |[challenge_33.py](cryptopals/set5/challenge_33.py) |
 | 34. Implement a MITM key-fixing attack on DH with parameter injection                 | Set 5 |[challenge_34.py](cryptopals/set5/challenge_34.py) |
 | 35. Implement DH with negotiated groups, and break with malicious "g"                 | Set 5 |[challenge_35.py](cryptopals/set5/challenge_35.py) |
-
+| 36. Implement Secure Remote Password (SRP)                                            | Set 5 |[challenge_36.py](cryptopals/set5/challenge_36.py) |
+| 37. Break SRP with a zero key                                                         | Set 5 |[challenge_37.py](cryptopals/set5/challenge_37.py) |
 
 ---
 
