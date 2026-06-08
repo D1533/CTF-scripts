@@ -33,10 +33,14 @@ This repository contains solution scripts for CTF challenges from various platfo
 | 37. Break SRP with a zero key                                                         | Set 5 |[challenge_37.py](cryptopals/set5/challenge_37.py) |
 | 39. Implement RSA                                                                     | Set 5 |[challenge_39.py](cryptopals/set5/challenge_39.py) |
 | 40. Implement an E=3 RSA Broadcast attack                                             | Set 5 |[challenge_40.py](cryptopals/set5/challenge_40.py) |
-| 41. Implement unpadded message recovery oracle                                        | Set 6 |[challenge_41.py](cryptopals/set5/challenge_41.py) |
-| 42. Bleichenbacher's e=3 RSA Attack                                                   | Set 6 |[challenge_42.py](cryptopals/set5/challenge_42.py) |
-| 43. DSA key recovery from nonce                                                       | Set 6 |[challenge_43.py](cryptopals/set5/challenge_43.py) |
-| 44. DSA nonce recovery from repeated nonce                                            | Set 6 |[challenge_44.py](cryptopals/set5/challenge_44.py) |
+| 41. Implement unpadded message recovery oracle                                        | Set 6 |[challenge_41.py](cryptopals/set6/challenge_41.py) |
+| 42. Bleichenbacher's e=3 RSA Attack                                                   | Set 6 |[challenge_42.py](cryptopals/set6/challenge_42.py) |
+| 43. DSA key recovery from nonce                                                       | Set 6 |[challenge_43.py](cryptopals/set6/challenge_43.py) |
+| 44. DSA nonce recovery from repeated nonce                                            | Set 6 |[challenge_44.py](cryptopals/set6/challenge_44.py) |
+| 45. DSA parameter tampering                                                           | Set 6 |[challenge_45.py](cryptopals/set6/challenge_45.py) |
+| 46. RSA parity oracle                                                                 | Set 6 |[challenge_46.py](cryptopals/set6/challenge_46.py) |
+
+
 
 
 
